@@ -1,0 +1,6 @@
+werkzeug==1.0.1
+flask==1.1.2
+serverless-wsgi==1.7.6
+requests==2.25.1
+boto3==1.17.105
+redis==3.5.3
