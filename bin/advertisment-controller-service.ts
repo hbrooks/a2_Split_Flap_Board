@@ -18,7 +18,7 @@ if (process.env.BOARD_MANAGEMENT_SERVICE_URL) {
 }
 
 const app = new cdk.App();
-new AdvertismentControllerServiceStack(app, 'AdvertisementControllerStack', tpiPublicInterviewId, boardManagementServiceUrl, {
+new AdvertismentControllerServiceStack(app, 'AdControllerServiceStack', tpiPublicInterviewId, boardManagementServiceUrl, {
     description: "Do not modify manually!  Stack contains the Split Flap Board used in interview #2.",
     tags: {
         'is_candidate_owned': 'true',
