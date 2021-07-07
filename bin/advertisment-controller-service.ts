@@ -12,7 +12,7 @@ if (process.env.TPI_PUBLIC_INTERVIEW_ID) {
 
 let boardManagementServiceUrl: string
 if (process.env.BOARD_MANAGEMENT_SERVICE_URL) {
-    tpiPublicInterviewId = process.env.BOARD_MANAGEMENT_SERVICE_URL
+  boardManagementServiceUrl = process.env.BOARD_MANAGEMENT_SERVICE_URL
 } else {
   throw new Error("BOARD_MANAGEMENT_SERVICE_URL environment variable is not set.")
 }

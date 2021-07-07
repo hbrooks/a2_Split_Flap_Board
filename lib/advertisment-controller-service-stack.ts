@@ -9,8 +9,9 @@ import * as apigateway from '@aws-cdk/aws-apigateway';
 export class AdvertismentControllerServiceStack extends cdk.Stack {
 
   constructor(scope: cdk.App, id: string, disambiguator: string, boardManagementServiceUrl: string, props?: cdk.StackProps) {
-    const serviceName = 'AdControllerService'
     super(scope, id + '-' + disambiguator, props);
+
+    const serviceName = 'AdControllerService'
 
     const lambdaImage = EcrImageCode.fromAssetImage(path.join(__dirname, '..', 'advertisement_controller_service'));
 

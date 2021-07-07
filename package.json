@@ -2,7 +2,7 @@
   "name": "advertisment-controller-service-stack",
   "version": "1.0.0",
   "bin": {
-    "split-flap-board-stack": "bin/advertisment-controller-service-stack.js"
+    "advertisment-controller-service": "bin/advertisment-controller-service.ts"
   },
   "scripts": {
     "build": "tsc",
